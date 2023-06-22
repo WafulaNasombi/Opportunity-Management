@@ -1,0 +1,358 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.6.2
+2 info using node@v18.14.2
+3 timing npm:load:whichnode Completed in 4ms
+4 timing config:load:defaults Completed in 7ms
+5 timing config:load:file:C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 12ms
+6 timing config:load:builtin Completed in 13ms
+7 timing config:load:cli Completed in 7ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\web_server\apache-2.4.56\htdocs\opportunity\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 11ms
+11 timing config:load:file:C:\Users\ADMIN\.npmrc Completed in 3ms
+12 timing config:load:user Completed in 4ms
+13 timing config:load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 4ms
+16 timing config:load Completed in 52ms
+17 timing npm:load:configload Completed in 53ms
+18 timing npm:load:mkdirpcache Completed in 2ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm i startbootstrap-full-width-pics
+21 verbose argv "i" "startbootstrap-full-width-pics"
+22 timing npm:load:setTitle Completed in 7ms
+23 timing config:load:flatten Completed in 30ms
+24 timing npm:load:display Completed in 36ms
+25 verbose logfile logs-max:10 dir:C:\web_server\apache-2.4.56\htdocs\opportunity\_logs\2023-06-22T11_19_57_474Z-
+26 verbose logfile C:\web_server\apache-2.4.56\htdocs\opportunity\_logs\2023-06-22T11_19_57_474Z-debug-0.log
+27 timing npm:load:logFile Completed in 36ms
+28 timing npm:load:timers Completed in 1ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 146ms
+31 timing arborist:ctor Completed in 2ms
+32 silly logfile start cleaning logs, removing 2 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 375ms
+35 timing idealTree:userRequests Completed in 6ms
+36 silly idealTree buildDeps
+37 silly fetch manifest startbootstrap-full-width-pics@*
+38 timing arborist:ctor Completed in 1ms
+39 http fetch GET 200 https://registry.npmjs.org/startbootstrap-full-width-pics 27638ms attempt #2 (cache miss)
+40 silly placeDep ROOT startbootstrap-full-width-pics@5.0.6 OK for:  want: *
+41 silly fetch manifest bootstrap@5.2.3
+42 http fetch GET 200 https://registry.npmjs.org/bootstrap 531ms (cache miss)
+43 timing idealTree:#root Completed in 28311ms
+44 silly fetch manifest @popperjs/core@^2.11.6
+45 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 509ms (cache miss)
+46 silly placeDep ROOT bootstrap@5.2.3 OK for: startbootstrap-full-width-pics@5.0.6 want: 5.2.3
+47 silly placeDep ROOT @popperjs/core@2.11.8 OK for: bootstrap@5.2.3 want: ^2.11.6
+48 timing idealTree:node_modules/startbootstrap-full-width-pics Completed in 546ms
+49 timing idealTree:node_modules/@popperjs/core Completed in 0ms
+50 timing idealTree:node_modules/bootstrap Completed in 0ms
+51 timing idealTree:buildDeps Completed in 28863ms
+52 timing idealTree:fixDepFlags Completed in 5ms
+53 timing idealTree Completed in 29267ms
+54 timing reify:loadTrees Completed in 29271ms
+55 timing reify:diffTrees Completed in 73ms
+56 silly reify moves {}
+57 timing reify:retireShallow Completed in 5ms
+58 timing reify:createSparse Completed in 31ms
+59 timing reify:loadBundles Completed in 0ms
+60 silly audit bulk request {
+60 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+60 silly audit   '@esbuild/android-arm': [ '0.17.19' ],
+60 silly audit   '@esbuild/android-arm64': [ '0.17.19' ],
+60 silly audit   '@esbuild/android-x64': [ '0.17.19' ],
+60 silly audit   '@esbuild/darwin-arm64': [ '0.17.19' ],
+60 silly audit   '@esbuild/darwin-x64': [ '0.17.19' ],
+60 silly audit   '@esbuild/freebsd-arm64': [ '0.17.19' ],
+60 silly audit   '@esbuild/freebsd-x64': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-arm': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-arm64': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-ia32': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-loong64': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-mips64el': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-ppc64': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-riscv64': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-s390x': [ '0.17.19' ],
+60 silly audit   '@esbuild/linux-x64': [ '0.17.19' ],
+60 silly audit   '@esbuild/netbsd-x64': [ '0.17.19' ],
+60 silly audit   '@esbuild/openbsd-x64': [ '0.17.19' ],
+60 silly audit   '@esbuild/sunos-x64': [ '0.17.19' ],
+60 silly audit   '@esbuild/win32-arm64': [ '0.17.19' ],
+60 silly audit   '@esbuild/win32-ia32': [ '0.17.19' ],
+60 silly audit   '@esbuild/win32-x64': [ '0.17.19' ],
+60 silly audit   '@jridgewell/gen-mapping': [ '0.3.3' ],
+60 silly audit   '@jridgewell/resolve-uri': [ '3.1.0' ],
+60 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+60 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15', '1.4.14' ],
+60 silly audit   '@jridgewell/trace-mapping': [ '0.3.18' ],
+60 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+60 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+60 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+60 silly audit   '@tailwindcss/forms': [ '0.5.3' ],
+60 silly audit   '@vue/reactivity': [ '3.1.5' ],
+60 silly audit   '@vue/shared': [ '3.1.5' ],
+60 silly audit   alpinejs: [ '3.12.2' ],
+60 silly audit   'any-promise': [ '1.3.0' ],
+60 silly audit   anymatch: [ '3.1.3' ],
+60 silly audit   arg: [ '5.0.2' ],
+60 silly audit   asynckit: [ '0.4.0' ],
+60 silly audit   autoprefixer: [ '10.4.14' ],
+60 silly audit   axios: [ '1.4.0' ],
+60 silly audit   'balanced-match': [ '1.0.2' ],
+60 silly audit   'binary-extensions': [ '2.2.0' ],
+60 silly audit   'brace-expansion': [ '1.1.11' ],
+60 silly audit   braces: [ '3.0.2' ],
+60 silly audit   browserslist: [ '4.21.9' ],
+60 silly audit   'camelcase-css': [ '2.0.1' ],
+60 silly audit   'caniuse-lite': [ '1.0.30001504' ],
+60 silly audit   chokidar: [ '3.5.3' ],
+60 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+60 silly audit   'combined-stream': [ '1.0.8' ],
+60 silly audit   commander: [ '4.1.1' ],
+60 silly audit   'concat-map': [ '0.0.1' ],
+60 silly audit   cssesc: [ '3.0.0' ],
+60 silly audit   'delayed-stream': [ '1.0.0' ],
+60 silly audit   didyoumean: [ '1.2.2' ],
+60 silly audit   dlv: [ '1.1.3' ],
+60 silly audit   'electron-to-chromium': [ '1.4.433' ],
+60 silly audit   esbuild: [ '0.17.19' ],
+60 silly audit   escalade: [ '3.1.1' ],
+60 silly audit   'fast-glob': [ '3.2.12' ],
+60 silly audit   fastq: [ '1.15.0' ],
+60 silly audit   'fill-range': [ '7.0.1' ],
+60 silly audit   'follow-redirects': [ '1.15.2' ],
+60 silly audit   'form-data': [ '4.0.0' ],
+60 silly audit   'fraction.js': [ '4.2.0' ],
+60 silly audit   'fs.realpath': [ '1.0.0' ],
+60 silly audit   fsevents: [ '2.3.2' ],
+60 silly audit   'function-bind': [ '1.1.1' ],
+60 silly audit   glob: [ '7.1.6' ],
+60 silly audit   has: [ '1.0.3' ],
+60 silly audit   inflight: [ '1.0.6' ],
+60 silly audit   inherits: [ '2.0.4' ],
+60 silly audit   'is-binary-path': [ '2.1.0' ],
+60 silly audit   'is-core-module': [ '2.12.1' ],
+60 silly audit   'is-extglob': [ '2.1.1' ],
+60 silly audit   'is-glob': [ '4.0.3' ],
+60 silly audit   'is-number': [ '7.0.0' ],
+60 silly audit   jiti: [ '1.18.2' ],
+60 silly audit   'laravel-vite-plugin': [ '0.7.8' ],
+60 silly audit   lilconfig: [ '2.1.0' ],
+60 silly audit   'lines-and-columns': [ '1.2.4' ],
+60 silly audit   merge2: [ '1.4.1' ],
+60 silly audit   micromatch: [ '4.0.5' ],
+60 silly audit   'mime-db': [ '1.52.0' ],
+60 silly audit   'mime-types': [ '2.1.35' ],
+60 silly audit   'mini-svg-data-uri': [ '1.4.4' ],
+60 silly audit   minimatch: [ '3.1.2' ],
+60 silly audit   mz: [ '2.7.0' ],
+60 silly audit   nanoid: [ '3.3.6' ],
+60 silly audit   'node-releases': [ '2.0.12' ],
+60 silly audit   'normalize-path': [ '3.0.0' ],
+60 silly audit   'normalize-range': [ '0.1.2' ],
+60 silly audit   'object-assign': [ '4.1.1' ],
+60 silly audit   'object-hash': [ '3.0.0' ],
+60 silly audit   once: [ '1.4.0' ],
+60 silly audit   'path-is-absolute': [ '1.0.1' ],
+60 silly audit   'path-parse': [ '1.0.7' ],
+60 silly audit   picocolors: [ '1.0.0' ],
+60 silly audit   picomatch: [ '2.3.1' ],
+60 silly audit   pify: [ '2.3.0' ],
+60 silly audit   pirates: [ '4.0.5' ],
+60 silly audit   postcss: [ '8.4.24' ],
+60 silly audit   'postcss-import': [ '15.1.0' ],
+60 silly audit   'postcss-js': [ '4.0.1' ],
+60 silly audit   'postcss-load-config': [ '4.0.1' ],
+60 silly audit   'postcss-nested': [ '6.0.1' ],
+60 silly audit   'postcss-selector-parser': [ '6.0.13' ],
+60 silly audit   'postcss-value-parser': [ '4.2.0' ],
+60 silly audit   'proxy-from-env': [ '1.1.0' ],
+60 silly audit   'queue-microtask': [ '1.2.3' ],
+60 silly audit   'read-cache': [ '1.0.0' ],
+60 silly audit   readdirp: [ '3.6.0' ],
+60 silly audit   resolve: [ '1.22.2' ],
+60 silly audit   reusify: [ '1.0.4' ],
+60 silly audit   rollup: [ '3.25.1' ],
+60 silly audit   'run-parallel': [ '1.2.0' ],
+60 silly audit   'source-map-js': [ '1.0.2' ],
+60 silly audit   sucrase: [ '3.32.0' ],
+60 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+60 silly audit   tailwindcss: [ '3.3.2' ],
+60 silly audit   thenify: [ '3.3.1' ],
+60 silly audit   'thenify-all': [ '1.6.0' ],
+60 silly audit   'to-regex-range': [ '5.0.1' ],
+60 silly audit   'ts-interface-checker': [ '0.1.13' ],
+60 silly audit   'update-browserslist-db': [ '1.0.11' ],
+60 silly audit   'util-deprecate': [ '1.0.2' ],
+60 silly audit   vite: [ '4.3.9' ],
+60 silly audit   'vite-plugin-full-reload': [ '1.0.5' ],
+60 silly audit   wrappy: [ '1.0.2' ],
+60 silly audit   yaml: [ '2.3.1' ],
+60 silly audit   'startbootstrap-full-width-pics': [ '5.0.6' ],
+60 silly audit   bootstrap: [ '5.2.3' ],
+60 silly audit   '@popperjs/core': [ '2.11.8' ]
+60 silly audit }
+61 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\fsevents
+62 silly reify mark deleted [
+62 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\fsevents'
+62 silly reify ]
+63 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\win32-ia32
+64 silly reify mark deleted [
+64 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\win32-ia32'
+64 silly reify ]
+65 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\win32-arm64
+66 silly reify mark deleted [
+66 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\win32-arm64'
+66 silly reify ]
+67 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\sunos-x64
+68 silly reify mark deleted [
+68 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\sunos-x64'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\openbsd-x64
+70 silly reify mark deleted [
+70 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\openbsd-x64'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\netbsd-x64
+72 silly reify mark deleted [
+72 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\netbsd-x64'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-x64
+74 silly reify mark deleted [
+74 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-x64'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-s390x
+76 silly reify mark deleted [
+76 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-s390x'
+76 silly reify ]
+77 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-riscv64
+78 silly reify mark deleted [
+78 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-riscv64'
+78 silly reify ]
+79 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-ppc64
+80 silly reify mark deleted [
+80 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-ppc64'
+80 silly reify ]
+81 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-mips64el
+82 silly reify mark deleted [
+82 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-mips64el'
+82 silly reify ]
+83 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-loong64
+84 silly reify mark deleted [
+84 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-loong64'
+84 silly reify ]
+85 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-ia32
+86 silly reify mark deleted [
+86 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-ia32'
+86 silly reify ]
+87 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-arm64
+88 silly reify mark deleted [
+88 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-arm64'
+88 silly reify ]
+89 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\linux-arm
+90 silly reify mark deleted [
+90 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\linux-arm'
+90 silly reify ]
+91 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\freebsd-x64
+92 silly reify mark deleted [
+92 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\freebsd-x64'
+92 silly reify ]
+93 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\freebsd-arm64
+94 silly reify mark deleted [
+94 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\freebsd-arm64'
+94 silly reify ]
+95 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\darwin-x64
+96 silly reify mark deleted [
+96 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\darwin-x64'
+96 silly reify ]
+97 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\darwin-arm64
+98 silly reify mark deleted [
+98 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\darwin-arm64'
+98 silly reify ]
+99 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\android-x64
+100 silly reify mark deleted [
+100 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\android-x64'
+100 silly reify ]
+101 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\android-arm64
+102 silly reify mark deleted [
+102 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\android-arm64'
+102 silly reify ]
+103 verbose reify failed optional dependency C:\web_server\apache-2.4.56\htdocs\opportunity\node_modules\@esbuild\android-arm
+104 silly reify mark deleted [
+104 silly reify   'C:\\web_server\\apache-2.4.56\\htdocs\\opportunity\\node_modules\\@esbuild\\android-arm'
+104 silly reify ]
+105 timing reifyNode:node_modules/fsevents Completed in 31ms
+106 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 32ms
+107 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 31ms
+108 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 31ms
+109 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 31ms
+110 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 30ms
+111 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 31ms
+112 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 31ms
+113 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 30ms
+114 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 30ms
+115 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 30ms
+116 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 30ms
+117 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 30ms
+118 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 30ms
+119 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 30ms
+120 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 30ms
+121 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 30ms
+122 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 30ms
+123 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 30ms
+124 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 30ms
+125 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 30ms
+126 timing reifyNode:node_modules/@esbuild/android-arm Completed in 30ms
+127 silly tarball no local data for startbootstrap-full-width-pics@https://registry.npmjs.org/startbootstrap-full-width-pics/-/startbootstrap-full-width-pics-5.0.6.tgz. Extracting by manifest.
+128 silly tarball no local data for @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz. Extracting by manifest.
+129 silly tarball no local data for bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.3.tgz. Extracting by manifest.
+130 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 401ms
+131 timing auditReport:getReport Completed in 418ms
+132 silly audit report {}
+133 timing auditReport:init Completed in 1ms
+134 timing reify:audit Completed in 421ms
+135 http fetch GET 200 https://registry.npmjs.org/startbootstrap-full-width-pics/-/startbootstrap-full-width-pics-5.0.6.tgz 1785ms (cache miss)
+136 timing reifyNode:node_modules/startbootstrap-full-width-pics Completed in 1848ms
+137 http fetch GET 200 https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz 2861ms (cache miss)
+138 timing reifyNode:node_modules/@popperjs/core Completed in 2928ms
+139 http fetch GET 200 https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.3.tgz 3473ms (cache miss)
+140 timing reifyNode:node_modules/bootstrap Completed in 3547ms
+141 timing reify:unpack Completed in 3549ms
+142 timing reify:unretire Completed in 1ms
+143 timing build:queue Completed in 6ms
+144 timing build:deps Completed in 8ms
+145 timing build Completed in 9ms
+146 timing reify:build Completed in 10ms
+147 timing reify:trash Completed in 12ms
+148 timing reify:save Completed in 108ms
+149 timing reify Completed in 33142ms
+150 silly ADD node_modules/@popperjs/core
+151 silly ADD node_modules/bootstrap
+152 silly ADD node_modules/startbootstrap-full-width-pics
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 timing command:i Completed in 33177ms
+176 verbose exit 0
+177 timing npm Completed in 33491ms
+178 info ok
